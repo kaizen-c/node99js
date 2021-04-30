@@ -9,5 +9,6 @@ script:
    - cd ./test
    - ls
    - mocha *_test.js
-   - istanbul cover _mocha
-   - bash <(curl -s https://codecov.io/bash)
+   - ls /home/travis/build/kaizen-c/node99js
+   #- istanbul cover _mocha
+   #- bash <(curl -s https://codecov.io/bash)
