@@ -1,9 +1,7 @@
 # node99js
 
-Travis-CI integration
-[![Build Status](https://travis-ci.com/kaizen-c/node99js.svg?branch=main)](https://travis-ci.com/kaizen-c/node99js)
 
-CodeCov Status
+[![Build Status](https://travis-ci.com/kaizen-c/node99js.svg?branch=main)](https://travis-ci.com/kaizen-c/node99js)
 
 [![codecov](https://codecov.io/gh/kaizen-c/node99js/branch/main/graph/badge.svg?token=O1Q7P8MZA5)](https://codecov.io/gh/kaizen-c/node99js)
 
