@@ -7,5 +7,4 @@ before_install:
 script:
    - mocha ./test/*_test.js
    - istanbul cover ./node_modules/mocha/bin/_mocha --reporter test -- -R spec
-   #- bash <(curl -s https://codecov.io/bash)
    - codecov
