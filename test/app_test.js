@@ -7,15 +7,7 @@ describe("the test", function () {
   this.beforeAll((done) => app.start(done));
   this.afterAll((done) => app.stop(done));
 
-  it("Can add two numbers", () => {
-    const result = calculator.add(1, 2);
-    assert.strictEqual(result, 3);
-  });
-
-  it("Can subtract numbers", () => {
-    const result = calculator.subtract(1, 2);
-    assert.strictEqual(result, -1);
-  });
+  
 
   it("Should be able to call add end point", function (done) {
     const req = {
