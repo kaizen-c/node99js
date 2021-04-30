@@ -8,4 +8,4 @@ script:
  # - codecov
    - cd ./test
    - ls
-   - mocha ./test/**/*_test.js
+   - mocha *_test.js
