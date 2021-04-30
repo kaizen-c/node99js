@@ -1,24 +1,2 @@
 {
-  "name": "web-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "runner.js",
-  "scripts": {
-    "start": "DATADOG_API_KEY=e2e35a18d59ce9caf49fb00b1e2288b4 DEBUG=metrics node runner.js",
-    "test": "mocha ./test/**/*_test.js"
-  },
-  "author": "Driw Assessment",
-  "license": "MIT",
-  "dependencies": {
-    "datadog-metrics": "^0.9.3",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.2.0",
-    "request": "^2.88.2"
-  },
-  "engines": {
-    "node": "8.x"
-  }
-} 
+}
