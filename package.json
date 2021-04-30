@@ -5,8 +5,7 @@
   "main": "runner.js",
   "scripts": {
     "start": "DATADOG_API_KEY=e2e35a18d59ce9caf49fb00b1e2288b4 DEBUG=metrics node runner.js",
-    "test": "mocha ./test/**/*_test.js",
-    "test-cover": "istanbul cover ./node_modules/.bin/_mocha -- -R spec ./node_modules/.bin/codecov"
+    "test": "mocha ./test/**/*_test.js"
   },
   "author": "Driw Assessment",
   "license": "MIT",
