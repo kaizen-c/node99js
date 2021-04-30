@@ -29,6 +29,6 @@ Here i have used python to build up a simple web application using Flask. This w
 Here you can see how all integrations work (except CodeCov).
 
 
-![Alt text](Travis_Github_integration.JPG?raw=true "Title")
+![Alt text](Travis_Github_integration.jpeg?raw=true "Title")
 
 Image [Ref](https://blog.bitsrc.io/automate-your-deployment-on-heroku-eba486b95470)
