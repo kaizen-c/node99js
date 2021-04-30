@@ -9,3 +9,5 @@ script:
    - cd ./test
    - ls
    - mocha *_test.js
+   - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+   - codecov
