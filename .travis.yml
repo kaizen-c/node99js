@@ -11,5 +11,5 @@ script:
    - mocha ./test/*_test.js
    - ls
    - pwd
-   - istanbul cover _mocha
+   - istanbul cover ./node_modules/mocha/bin/_mocha --reporter test -- -R spec
    - bash <(curl -s https://codecov.io/bash)
