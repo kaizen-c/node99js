@@ -9,22 +9,6 @@ describe("the test", function () {
 
  
 
-  it("Should be able to call add end point", function (done) {
-    const req = {
-      json: true,
-      uri: "http://localhost:3000/add?a=1&b=2",
-    };
-
-    request.get(req, (error, res, body) => {
-      if (error) return done(error);
-      if (res.statusCode !== 200)
-        return done(new Error(`oh no! ${res.statusCode}`));
-      console.log("body", body);
-      assert.strictEqual(body.operation, "add");
-      assert.strictEqual(body.result, 3);
-      done();
-    });
-  });
 
   it("Should be able to call subtract end point", function (done) {
     const req = {
