@@ -5,7 +5,6 @@ before_install:
   - npm install -g codecov istanbul mocha chai request express
 
 script:
-   #- mocha ./test/*_test.js
-   #- istanbul cover ./node_modules/mocha/bin/_mocha --reporter test -- -R spec
-   #- codecov
-   - ls
+   - mocha ./test/*_test.js
+   - istanbul cover ./node_modules/mocha/bin/_mocha --reporter test -- -R spec
+   - codecov
