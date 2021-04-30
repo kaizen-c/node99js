@@ -6,9 +6,9 @@ before_install:
 script:
  # - istanbul cover ./node_modules/mocha/bin/_mocha --reporter test -- -R spec
  # - codecov
-   - cd ./test
-   - ls
-   - mocha *_test.js
+ #  - cd ./test
+#  - ls
+   - mocha ./test/*_test.js
    - ls /home/travis/build/kaizen-c/node99js
    #- istanbul cover _mocha
    #- bash <(curl -s https://codecov.io/bash)
