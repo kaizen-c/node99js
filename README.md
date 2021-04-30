@@ -21,14 +21,6 @@ Travis-CI and Github and for that do check following [documentation](https://doc
 
 next step is to use CodeCov with travis-Ci and a great tutorial could be found [here](https://dev.to/j0nimost/using-codecov-with-travis-ci-pytest-cov-1dfj).
 
-Here i have used python to build up a simple web application using Flask. This will expose an endpoint where you will be able to get the consolidated results of two web URI's. 
-
-> https://api.mentimeter.com/questions/48d75c359ce4
-> https://api.mentimeter.com/questions/48d75c359ce4/result
-
-Here you can see how all integrations work (except CodeCov).
-
-
 ![Alt text](Travis_Github_integration.jpeg?raw=true "Title")
 
 Image [Ref](https://blog.bitsrc.io/automate-your-deployment-on-heroku-eba486b95470)
