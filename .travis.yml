@@ -10,7 +10,9 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 5f9beea9-adce-48c4-8820-20f6f0
+    secure: ${{ secrets.H_API_KEY }}
   app: node-test-kaizen
   on:
     repo: kaizen-c/node99js
+
+    
