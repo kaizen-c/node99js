@@ -9,7 +9,7 @@ describe("the test", function () {
 
   it("Can add two numbers", () => {
     const result = calculator.add(1, 2);
-    assert.strictEqual(result, 3);
+    assert.strictEqual(result, 300);
   });
 
   it("Can subtract numbers", () => {
