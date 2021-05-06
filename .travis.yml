@@ -2,7 +2,7 @@ language: node_js
 node_js:
  - "node"
 before_install:
-  - npm install -g codecov istanbul mocha chai request express
+  - npm install -g codecov 
 script:
    - mocha ./test/*_test.js
    - istanbul cover ./node_modules/mocha/bin/_mocha --reporter test -- -R spec
