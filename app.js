@@ -6,7 +6,7 @@ const calculator = require("./service");
 let server;
 
 app.get("/", (req, res) => {
-  res.json({ message: `${new Date()} - Hello Welcome12333!!` });
+  res.json({ message: `${new Date()} - Hello Welcome!!` });
 });
 
 app.get("/add", (req, res) => {
